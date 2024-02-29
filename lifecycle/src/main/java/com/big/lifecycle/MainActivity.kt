@@ -2,6 +2,7 @@ package com.big.lifecycle
 
 import android.os.Bundle
 import android.os.SystemClock
+import android.util.Log
 import android.widget.Chronometer
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -17,12 +18,14 @@ import com.big.lifecycle.ui.theme.JetpackStudyTheme
 class MainActivity : ComponentActivity() {
      val chronometer:MyChronometer by lazy {
          findViewById(R.id.chronometer)
+
      }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         lifecycle.addObserver(chronometer)
+        Log.v("zwb","1111")
 
     }
 
