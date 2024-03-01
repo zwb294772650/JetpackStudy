@@ -26,6 +26,7 @@ class MainActivity : ComponentActivity() {
         setContentView(R.layout.activity_main)
         lifecycle.addObserver(chronometer)
         Log.v("zwb","1111")
+        Log.v("zwb","2222")
 
     }
 
