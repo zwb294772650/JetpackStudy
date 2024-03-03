@@ -27,6 +27,7 @@ class MainActivity : ComponentActivity() {
         lifecycle.addObserver(chronometer)
         Log.v("zwb","1111")
         Log.v("zwb","2222")
+        Log.v("zwb","3333")
 
     }
 
