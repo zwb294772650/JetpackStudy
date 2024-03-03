@@ -28,6 +28,7 @@ class MainActivity : ComponentActivity() {
         Log.v("zwb","1111")
         Log.v("zwb","2222")
         Log.v("zwb","3333")
+        Log.v("zwb","444")
 
     }
 
